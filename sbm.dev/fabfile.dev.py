@@ -5,10 +5,10 @@ def prepare_deployment(branch_name):
     local('git checkout master && git merge ' + branch_name)
     
 def deploy():
-    with lcd('/home/sbmkorea/public_html/plts.sbmkorea.com/'):
+    with lcd('/home/sw3/public_html/plts.sbmkorea.com/'):
         local('rm -rf sbm')
 #        local('git clone /home/sbmkorea/DJANGO_ENV/projects/sbm/')
-    with lcd('/home/sbmkorea/public_html/plts.sbmkorea.com/sbm'):
+    with lcd('/home/sw3/public_html/plts.sbmkorea.com/sbm'):
         local('python manage.py migrate plts')
         local('python manage.py collectstatic')
         local('sudo service apache2 reload')

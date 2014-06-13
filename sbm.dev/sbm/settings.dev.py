@@ -87,7 +87,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
-STATIC_ROOT = '/home/sbmkorea/public_html/plts.sbmkorea.com/static/'
+STATIC_ROOT = '/home/sw3/public_html/plts.sbmkorea.com/static/'
 STATIC_URL = '/static/'
 
 
@@ -95,8 +95,8 @@ TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
-    '/home/sbmkorea/public_html/plts.sbmkorea.com/sbm/sample_board/templates',
-    '/home/sbmkorea/public_html/plts.sbmkorea.com/sbm/plts/templates',
+    '/home/sw3/public_html/plts.sbmkorea.com/sbm/sample_board/templates',
+    '/home/sw3/public_html/plts.sbmkorea.com/sbm/plts/templates',
     #os.path.join(os.path.dirname(__file__), 'templates').replace('//','/'),
     
 )
