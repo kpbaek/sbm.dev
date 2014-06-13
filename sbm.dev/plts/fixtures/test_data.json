@@ -1,0 +1,108 @@
+[
+	{
+		"model": "plts.ProductModel",
+		"pk": 1,
+		"fields": {
+			"name": "SB-1100",
+			"barcode_prefix": "21100"
+		}
+	},
+		{
+		"model": "plts.ProductModel",
+		"pk": 2,
+		"fields": {
+			"name": "SB-7",
+			"barcode_prefix": "20007"
+		}
+	},
+	{
+		"model": "plts.ProductModel",
+		"pk": 3,
+		"fields": {
+			"name": "SB-9",
+			"barcode_prefix": "20009"
+		}
+	},
+	{
+		"model": "plts.ProductModel",
+		"pk": 4,
+		"fields": {
+			"name": "SB-2000",
+			"barcode_prefix": "22000"
+		}
+	},
+	{
+		"model": "plts.ProductModel",
+		"pk": 5,
+		"fields": {
+			"name": "SB-3000",
+			"barcode_prefix": "23000"
+		}
+	},
+	{
+		"model": "plts.ProductModel",
+		"pk": 6,
+		"fields": {
+			"name": "SB-5000",
+			"barcode_prefix": "25000"
+		}
+	},
+	{
+		"model": "plts.ProductStatus",
+		"pk": 1,
+		"fields": {
+			"priority": "0",
+			"name": "start"
+		}
+	},
+	{
+		"model": "plts.ProductStatus",
+		"pk": 2,
+		"fields": {
+			"priority": 0,
+			"name": "done"
+		}
+	},
+	{
+		"model": "plts.Company",
+		"pk": 1,
+		"fields": {
+			"priority": 0,
+			"name": "SBM"
+		}
+	},
+	{
+		"model": "plts.Worker",
+		"pk": 1,
+		"fields": {
+			"company": 1,
+			"name": "이광석"
+		}
+	},
+	{
+		"model": "plts.ManufacturingType",
+		"pk": 1,
+		"fields": {
+			"priority": 1,
+			"name": "production"
+		}
+	},
+	{
+		"model": "plts.ManufacturingType",
+		"pk": 2,
+		"fields": {
+			"priority": 1,
+			"name": "repair"
+		}
+	},
+	{
+		"model": "plts.ManufacturingType",
+		"pk": 3,
+		"fields": {
+			"priority": 1,
+			"name": "spec_change"
+		}
+	}
+
+]
+
