@@ -6,9 +6,8 @@ def prepare_deployment(branch_name):
     
 def deploy():
 #    with lcd('/home/sbmkorea/public_html/plts.sbmkorea.com/'):
-#    with lcd('D:/temp/test'):
 #        local('rm -rf sbm')
-#        local('git clone D:/temp/test/')
+#        local('git clone /home/sbmkorea/DJANGO_ENV/projects/sbm/')
 #    with lcd('/home/sbmkorea/public_html/plts.sbmkorea.com/sbm'):
     with lcd('D:/dev/python/web/sbm/sbm.dev'):
         local('python manage.py migrate plts')
